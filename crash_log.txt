@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "D:\hackathone\app.py", line 13, in <module>
+    connect_to_database()
+  File "D:\hackathone\app.py", line 9, in connect_to_database
+    print(f"Connecting to database at {DB_ENDPOINT}...")
+                                      ^^^^^^^^^^^
+NameError: name 'DB_ENDPOINT' is not defined. Did you mean: 'DB_ENPOINT'?
