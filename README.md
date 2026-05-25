@@ -1,5 +1,3 @@
- 
-                                                                                    # DEVGuard Ai 
 
 # Autonomous SRE Agent
 
