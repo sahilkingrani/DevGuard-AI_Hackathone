@@ -5,7 +5,7 @@ A small Python demo that simulates a crashing server and uses **Google Gemini** 
 
 ## Overview
 
-| File | Role |
+| Files | Role |
 |------|------|
 | `app.py` | Simulated server app with an intentional typo (`DB_ENPOINT` vs `DB_ENDPOINT`). On crash, writes a traceback to `crash_log.txt`. |
 | `agent.py` | Autonomous SRE agent: reads the log and source, asks Gemini for a structured fix, then overwrites `app.py` with the corrected code. |
