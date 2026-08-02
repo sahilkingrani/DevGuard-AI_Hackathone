@@ -1,4 +1,3 @@
-
 # Autonomous SRE Agent
 
 A small Python demo that simulates a crashing server and uses **Google Gemini** to analyze crash logs and automatically patch `app.py`.
